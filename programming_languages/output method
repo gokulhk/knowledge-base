@@ -1,10 +1,21 @@
 #c
 printf("msg");
+
 #c++
 cout<<"msg";
+
 #java8
 System.out.print("msg");
+
 #python3
-print("msg")
+print("msg\n",end = " ")
+
+#javascript
+document.getElementById("id").innerHTML = "msg" //displaying by changing the value of html tag
+document.write("msg") //displaying msg where the code is placed
+window.alert("msg") // show msg on top of browser window
+console.log("msg") //print msg in the browser console
+
+
 # c#
 Console.WriteLine("msg");
