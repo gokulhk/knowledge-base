@@ -1,0 +1,10 @@
+#c
+printf("msg");
+#c++
+cout<<"msg";
+#java8
+System.out.print("msg");
+#python3
+print("msg")
+# c#
+Console.WriteLine("msg");
