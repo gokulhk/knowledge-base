@@ -1,0 +1,95 @@
+loop constructs 
+  1.for
+  2.for..each 
+  3.while
+  4.do..while
+
+related keyword "
+  1.break
+  2.continue
+  3.goto
+---------------------------------------------------------------------------------------------------------------------------
+# c // no for each but can emulate using macros
+
+for(int a; i < n; i++){
+  //statements
+}
+
+while(test_expression){
+  //statements
+}
+
+do{
+  //statements
+}while(test_expression);
+
+---------------------------------------------------------------------------------------------------------------------------
+# c++
+
+for(int a; i < n; i++){
+  //statements
+}
+
+while(test_expression){
+  //statements
+}
+
+do{
+  //statements
+}while(test_expression);
+
+---------------------------------------------------------------------------------------------------------------------------
+# java
+
+for(int a; i < n; i++){
+  //statements
+}
+while(test_expression){
+  //statements
+}
+do{
+  //statements
+}while(test_expression);
+
+for( String name : names ) {
+  //statements
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+# python3
+
+for i in range(0,5):
+   print(i)
+   
+while counter <= n:
+    s = s + counter
+    counter += 1
+
+---------------------------------------------------------------------------------------------------------------------------
+# javascript
+
+for (var=startvalue;var<=endvalue;var=var+increment) 
+{
+code to be executed
+}
+
+while (var<=endvalue)
+{
+    code to be executed
+
+}
+
+do
+{
+    code to be executed
+}
+while (var<=endvalue)
+
+for (variable in object)
+{
+    code to be executed
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+# c#
+same as c++
