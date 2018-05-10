@@ -1,1 +1,25 @@
 #c
+scanf("%d",&a); //get entire input from the input device
+a = getchar(); //gets only a single character from the input device 
+a = gets(); // used to scan a single line of text from standard input device
+
+#c++
+cin >> a ; // #include<iostream.h>
+
+#java
+Scanner sc = new Scanner(System.in);
+a = sc.nextInt(); // integer input
+      .nextDouble(); 
+      .next(); //string
+      .nextLine(); // entire line as a string 
+      
+#python3
+a = input("msg")
+
+# C#
+a = Console.Read() // reads only one character 
+a = Console.ReadLine() // reads a single line
+a = Console.ReadKey() // used to hold the screen till user enters a key and displayed instantly 
+
+#javascript 
+var a = prompt("msg"); // getting input through console
