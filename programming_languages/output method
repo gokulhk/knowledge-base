@@ -1,5 +1,7 @@
 #c
 printf("msg");
+puts(a); //print single line of string 
+putchar(a); //print single character
 
 #c++
 cout<<"msg";
