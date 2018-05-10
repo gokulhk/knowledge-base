@@ -1,16 +1,18 @@
 # c
-
+datatype variable_name =  value ; [datatype: char(1), int(2), float(4), double(8), void(0)]
+int a = 10 ;
 
 # c++
-
+datatype variable_name =  value ; [datatype: bool, char, int, float, double, void] 
 
 # java
-
+datatype variable_name =  value ; [datatype: char, int, byte, float, double, NUMBER{Integer,Byte,Float,Short,Double,Long},Character,String ]
 
 # python3 
-
+variable_name = value ; // dynamic typing
 
 # javascript
-
+var variable_name = value ;
 
 # c#
+datatype variable_name =  value ; [datatype: bool, char, int, float, double]
